@@ -1,0 +1,42 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# Spark / Hadoop temporary files
+spark-warehouse/
+tmp/
+temp/
+*.tmp
+
+# Generated analytics data
+data/bronze/
+data/silver/
+data/gold/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python build files
+dist/
+build/
+*.egg-info/
